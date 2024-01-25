@@ -1,0 +1,98 @@
+<!--(ex-4 Assignement -> Responsive-web-layout usng bootsrap-5)-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>responsive-layout demo</title>
+
+    <style>
+        /* .k_con{
+            height: 1000px;
+          
+
+             border:1px solid red; 
+        } */
+
+        header{
+            height: 200px;
+            background: purple;
+        }
+
+        .k_main{
+            height:600px;
+            /* border: 2px dotted blue; */
+        }
+
+        footer{
+            height: 120px;
+            
+        }
+
+        /* .k_tempb{
+            border: 1px dotted black;
+        } */
+    </style>
+
+</head>
+<body>
+
+    <div class="container-fluid k_con">
+
+        <header class="d-flex align-items-center">
+            <h1 class="text-white ms-2">India</h1>
+
+        </header>
+
+        <div class="k_main row m-0 ">
+
+            <aside class="k_aside_left col-2 k_tempb col-sm-12 col-md-2 col-lg-2">
+                <ul class="nav flex-column">
+                    <li class="nav-item mt-2">
+                      <a class="nav-link bg-info text-white" aria-current="page" href="#">The Flight</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                      <a class="nav-link bg-info text-white" href="#">The City</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                      <a class="nav-link bg-info text-white" href="#">The Island</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                      <a class="nav-link bg-info  text-white" href="#">The Food</a>
+                    </li>
+                  </ul>
+            </aside>
+            <section class="col-8 k_tempb col-sm-12 col-md-10 col-lg-8">
+
+                <h1>The City</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt error natus voluptate explicabo eligendi reprehenderit delectus laudantium, voluptas doloremque itaque illo reiciendis a nulla libero ipsa. Quibusdam facilis libero culpa praesentium iusto, non, aspernatur sunt obcaecati suscipit iste itaque quas possimus. Tenetur, velit, laboriosam rerum commodi eos adipisci ex inventore, quod tempore optio eaque doloremque aliquam voluptatem exercitationem saepe sint possimus quidem. Repellendus, iusto? Nemo cupiditate numquam, at animi maxime quibusdam ducimus aut consequatur dicta quos possimus in maiores facere natus sunt adipisci, praesentium porro consequuntur, odit repudiandae vero ab itaque ipsum reiciendis! Temporibus doloremque tempore pariatur reprehenderit ea architecto.</p>
+                
+            </section>
+            <aside class="k_aside_right col-2 k_tempb bg-info text-white col-sm-12 col-md-12 col-lg-2">
+                <h1>What ?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h1>Where?</h1>
+                <p>Lorem ipsum amet consectetur adipisicing elit.</p>
+                <h1>how ?</h1>
+                <p>Lorem ipsum dolor sit amet  elit.</p>
+            </aside>
+
+        </div>
+
+        <footer class="bg-info text-white d-flex align-items-center justify-content-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veniam quam similique dolores ut numquam beatae id, dolor reiciendis est.
+        </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
+    
+</body>
+</html>
